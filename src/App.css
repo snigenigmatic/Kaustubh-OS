@@ -12,13 +12,19 @@
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(255, 255, 255, 0.02);
   overflow: hidden;
 }
 
 .topbar {
   height: 44px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
   color: var(--muted);
   display: flex;
   align-items: center;
@@ -88,7 +94,11 @@
 
 .footer {
   height: 36px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.02));
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.01),
+    rgba(255, 255, 255, 0.02)
+  );
   display: flex;
   align-items: center;
   padding: 0 12px;
@@ -105,10 +115,19 @@
 }
 
 @keyframes flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
     opacity: 1;
   }
-  20%, 24%, 55% {
+  20%,
+  24%,
+  55% {
     opacity: 0.9;
   }
 }
@@ -119,11 +138,11 @@
     max-width: 100%;
     border-radius: 0;
   }
-  
+
   .terminal-wrap {
     padding: 12px;
   }
-  
+
   .terminal {
     padding: 10px;
   }

@@ -31,7 +31,8 @@ body {
   justify-content: center;
 }
 
-code, pre {
+code,
+pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
 }
 
